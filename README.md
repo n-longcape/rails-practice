@@ -3,11 +3,14 @@ this is Rails Tutorial
 ## Environment
 
 * Ruby version
+2.6.2
+
+* Rails version
 5.2.3
 
 * OS
 macOS Mojave
-v 10.14.2
+version 10.14.2
 
 ## Getting started
 To get started with the app, clone the repo and then install the needed gems:
