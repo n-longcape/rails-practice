@@ -1,24 +1,38 @@
-# README
+this is Rails Tutorial 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+## Environment
 
 * Ruby version
+5.2.3
 
-* System dependencies
+* OS
+macOS Mojave
+v 10.14.2
 
-* Configuration
+## Getting started
+To get started with the app, clone the repo and then install the needed gems:
 
-* Database creation
+```
+$ bundle install --without production
+```
 
-* Database initialization
+migrate the database:
+```
+$ rails db:migrate
+```
+run the test suite to verify that everything is working correctly:
+```
+$ rails test
+```
 
-* How to run the test suite
+If the test suite passes, you'll be ready to run the app in a local server:
+```
+$ rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+If you want to confirm Rails operation check:
+```
+$ rails console
+```
 
-* Deployment instructions
 
-* ...
